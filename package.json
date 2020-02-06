@@ -4,7 +4,10 @@
   "description": "Example for how to mock a JSON Web Token",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "mocha --recursive --colors",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +25,7 @@
     "jwks-rsa": "^1.6.2"
   },
   "devDependencies": {
+    "eslint": "^6.8.0",
     "jsonwebtoken": "^8.5.1",
     "mocha": "^7.0.1",
     "nock": "^11.7.2",
