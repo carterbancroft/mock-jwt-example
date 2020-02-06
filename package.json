@@ -1,0 +1,30 @@
+{
+  "name": "mock-jwt-example",
+  "version": "1.0.0",
+  "description": "Example for how to mock a JSON Web Token",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carterbancroft/mock-jwt-example.git"
+  },
+  "author": "Carter Bancroft",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/carterbancroft/mock-jwt-example/issues"
+  },
+  "homepage": "https://github.com/carterbancroft/mock-jwt-example#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "jwks-rsa": "^1.6.2"
+  },
+  "devDependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^7.0.1",
+    "nock": "^11.7.2",
+    "request-promise-native": "^1.0.8"
+  }
+}
