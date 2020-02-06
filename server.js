@@ -14,7 +14,7 @@ const start = port => {
     // Validate the audience and the issuer.
     audience: config.auth0.audience,
     issuer: config.auth0.issuer,
-    algorithms: config.auth0.algorithms,
+    algorithms: ['RS256'],
 
     secret: jwksRsa.expressJwtSecret({
       cache: true,
