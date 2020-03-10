@@ -3,6 +3,9 @@ As the title suggests, this is an example of how to mock JSON Web Tokens for uni
 testing a Node.js Express application. It assumes you're using Auth0 but the
 mocking strategy applies more broadly to JSON Web Tokens in general.
 
+I've also written a [companion article](https://carterbancroft.com/mocking-json-web-tokens-and-auth0/)
+for this repo.
+
 ## Setup
 
 ```
